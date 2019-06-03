@@ -462,3 +462,1752 @@ Processing by FuturesController#index as */*
 Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:16:21 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:16:23 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:16:24 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (3.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:16:25 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:16:26 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:16:29 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (3.1ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:16:30 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (8.1ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 10ms (Views: 1.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:16:31 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:16:48 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (15.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 18ms (Views: 2.1ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:16:51 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:16:52 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (24.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 27ms (Views: 2.4ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:16:52 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (3.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:16:53 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (5.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:22:14 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:25:22 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.2ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:26:33 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:26:38 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (15.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 18ms (Views: 2.3ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:31:21 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (8.2ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 12ms (Views: 3.6ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:32:31 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:32:38 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:33:41 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:34:04 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:50:19 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:50:20 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (19.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 22ms (Views: 2.3ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:53:11 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (10.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 14ms (Views: 3.2ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:53:32 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:54:39 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:56:54 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.8ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:56:56 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:20:10 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.6ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 17ms (Views: 11.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:40:11 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:43:34 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:43:45 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:53:14 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2019-06-03 11:55:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:55:26 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:58:11 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 11:59:33 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (24.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 28ms (Views: 3.1ms | ActiveRecord: 24.7ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 11:59:35 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:59:35 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (3.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 11:59:44 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (64.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 68ms (Views: 3.2ms | ActiveRecord: 64.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 12:00:05 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 2.7ms)
+
+
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mPresent Create (152.0ms)[0m  [1m[32mINSERT INTO "presents" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 16:49:20.835832"], ["updated_at", "2019-06-03 16:49:20.835832"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (49.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mPresent Create (0.5ms)[0m  [1m[32mINSERT INTO "presents" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 16:49:28.522345"], ["updated_at", "2019-06-03 16:49:28.522345"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDateInPresent (20190603174338)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (50.8ms)[0m  [1m[35mALTER TABLE "presents" DROP COLUMN "date"[0m
+  ↳ db/migrate/20190603174338_remove_date_in_present.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190603174338"]]
+  ↳ bin/rails:9
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (22.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDataToPresent (20190603174533)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (30.8ms)[0m  [1m[35mALTER TABLE "presents" ADD "date" character varying[0m
+  ↳ db/migrate/20190603174533_add_data_to_present.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190603174533"]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDateFromFuture (20190603174736)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "futures" DROP COLUMN "date"[0m
+  ↳ db/migrate/20190603174736_remove_date_from_future.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190603174736"]]
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDateToFutures (20190603174906)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "futures" ADD "date" character varying[0m
+  ↳ db/migrate/20190603174906_add_date_to_futures.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190603174906"]]
+  ↳ bin/rails:9
+  [1m[35m (12.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (4.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-06-03 13:51:12 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.9ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presents" for ::1 at 2019-06-03 13:51:21 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (1.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 37ms (Views: 19.5ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/presents" for ::1 at 2019-06-03 13:51:42 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for ::1 at 2019-06-03 13:54:28 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.6ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 19ms (Views: 10.3ms | ActiveRecord: 6.0ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPast Create (34.4ms)[0m  [1m[32mINSERT INTO "pasts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 17:55:04.701273"], ["updated_at", "2019-06-03 17:55:04.701273"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mPresent Create (0.5ms)[0m  [1m[32mINSERT INTO "presents" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 17:55:04.757889"], ["updated_at", "2019-06-03 17:55:04.757889"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mFuture Create (1.2ms)[0m  [1m[32mINSERT INTO "futures" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 17:55:04.774118"], ["updated_at", "2019-06-03 17:55:04.774118"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+Started GET "/presents" for ::1 at 2019-06-03 13:55:07 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for ::1 at 2019-06-03 13:55:29 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (1.6ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 19ms (Views: 10.5ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-03 13:55:39 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.9ms)
+Completed 200 OK in 32ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 13:55:45 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.9ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 26ms (Views: 15.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/pasts" for ::1 at 2019-06-03 13:56:31 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (0.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 20ms (Views: 12.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/pasts" for ::1 at 2019-06-03 13:57:21 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (0.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 19ms (Views: 12.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/pasts" for ::1 at 2019-06-03 13:59:58 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (0.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 14:00:02 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (2.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 26ms (Views: 14.3ms | ActiveRecord: 9.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Create (0.9ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "More good future Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:01:36.438039"], ["updated_at", "2019-06-03 18:01:36.438039"], ["date", "January 30th 2019"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mFuture Load (0.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+Started GET "/futures" for ::1 at 2019-06-03 14:02:12 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mPast Create (45.6ms)[0m  [1m[32mINSERT INTO "pasts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 18:05:23.193543"], ["updated_at", "2019-06-03 18:05:23.193543"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (27.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mPresent Create (1.0ms)[0m  [1m[32mINSERT INTO "presents" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 18:05:23.280148"], ["updated_at", "2019-06-03 18:05:23.280148"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.4ms)[0m  [1m[32mINSERT INTO "futures" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 18:05:23.294665"], ["updated_at", "2019-06-03 18:05:23.294665"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+Started GET "/futures" for ::1 at 2019-06-03 14:05:26 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mFuture Load (0.6ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (9.0ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 1]]
+  [1m[35m (28.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.4ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.3ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.5ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.4ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.4ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.5ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/futures" for ::1 at 2019-06-03 14:06:52 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.6ms)[0m  [1m[32mINSERT INTO "futures" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 18:07:36.334343"], ["updated_at", "2019-06-03 18:07:36.334343"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+Started GET "/futures" for ::1 at 2019-06-03 14:07:38 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.6ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "The Good  future times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:08:35.021725"], ["updated_at", "2019-06-03 18:08:35.021725"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (7.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.4ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "More good future Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:08:35.031853"], ["updated_at", "2019-06-03 18:08:35.031853"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.9ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Even more good  future Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:08:35.034146"], ["updated_at", "2019-06-03 18:08:35.034146"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+Started GET "/futures" for ::1 at 2019-06-03 14:08:36 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT  "futures".* FROM "futures" WHERE "futures"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFuture Destroy (0.4ms)[0m  [1m[31mDELETE FROM "futures" WHERE "futures"."id" = $1[0m  [["id", 8]]
+  [1m[35m (30.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/futures" for ::1 at 2019-06-03 14:09:07 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.9ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mPast Load (0.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.5ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/pasts" for ::1 at 2019-06-03 14:10:13 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (2.0ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 2.0ms)
+
+
+  [1m[36mPresent Load (0.7ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.4ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/presents" for ::1 at 2019-06-03 14:11:04 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.7ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 6ms (Views: 1.9ms | ActiveRecord: 2.2ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.6ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "The Good  future times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:11:26.210134"], ["updated_at", "2019-06-03 18:11:26.210134"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.2ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "More good future Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:11:26.215237"], ["updated_at", "2019-06-03 18:11:26.215237"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mFuture Create (0.3ms)[0m  [1m[32mINSERT INTO "futures" ("title", "img", "description", "comment", "attendance", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Even more good  future Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["attendance", false], ["created_at", "2019-06-03 18:11:26.219652"], ["updated_at", "2019-06-03 18:11:26.219652"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+Started GET "/presents" for ::1 at 2019-06-03 14:11:28 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/presents" for ::1 at 2019-06-03 14:11:30 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mPast Create (0.9ms)[0m  [1m[32mINSERT INTO "pasts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 18:11:46.060276"], ["updated_at", "2019-06-03 18:11:46.060276"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mPresent Create (0.5ms)[0m  [1m[32mINSERT INTO "presents" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2019-06-03 18:11:46.079680"], ["updated_at", "2019-06-03 18:11:46.079680"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+Started GET "/presents" for ::1 at 2019-06-03 14:11:48 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/pasts" for ::1 at 2019-06-03 14:11:58 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (0.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mPast Create (0.6ms)[0m  [1m[32mINSERT INTO "pasts" ("title", "img", "description", "comment", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "The Good Old Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["created_at", "2019-06-03 18:12:26.666329"], ["updated_at", "2019-06-03 18:12:26.666329"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mPast Create (0.2ms)[0m  [1m[32mINSERT INTO "pasts" ("title", "img", "description", "comment", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "More good old times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["created_at", "2019-06-03 18:12:26.671790"], ["updated_at", "2019-06-03 18:12:26.671790"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mPast Create (0.3ms)[0m  [1m[32mINSERT INTO "pasts" ("title", "img", "description", "comment", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Even more good old times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["created_at", "2019-06-03 18:12:26.678291"], ["updated_at", "2019-06-03 18:12:26.678291"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mPresent Create (0.4ms)[0m  [1m[32mINSERT INTO "presents" ("title", "img", "description", "comment", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "The Good  Present Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["created_at", "2019-06-03 18:12:26.697390"], ["updated_at", "2019-06-03 18:12:26.697390"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mPresent Create (0.3ms)[0m  [1m[32mINSERT INTO "presents" ("title", "img", "description", "comment", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "More good  Present Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["created_at", "2019-06-03 18:12:26.700140"], ["updated_at", "2019-06-03 18:12:26.700140"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mPresent Create (0.2ms)[0m  [1m[32mINSERT INTO "presents" ("title", "img", "description", "comment", "created_at", "updated_at", "date") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "Even more good  Present Times"], ["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["description", "this was so much fun"], ["comment", ""], ["created_at", "2019-06-03 18:12:26.702063"], ["updated_at", "2019-06-03 18:12:26.702063"], ["date", "January 30th 2019"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+Started GET "/pasts" for ::1 at 2019-06-03 14:12:28 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (0.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mPast Load (0.4ms)[0m  [1m[34mSELECT  "pasts".* FROM "pasts" WHERE "pasts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPast Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pasts" WHERE "pasts"."id" = $1[0m  [["id", 7]]
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/pasts" for ::1 at 2019-06-03 14:13:07 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (0.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for ::1 at 2019-06-03 14:13:22 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (2.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 2.2ms)
+
+
+  [1m[36mPresent Load (0.3ms)[0m  [1m[34mSELECT  "presents".* FROM "presents" WHERE "presents"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPresent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "presents" WHERE "presents"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/presents" for ::1 at 2019-06-03 14:13:42 -0400
+Processing by PresentsController#index as HTML
+  [1m[36mPresent Load (0.8ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 14:14:10 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:14:15 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:14:33 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:14:34 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (8.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 12ms (Views: 2.8ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:15:09 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (4.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:15:10 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:15:11 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.8ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:15:12 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:15:32 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (24.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 26ms (Views: 1.8ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:15:33 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.0ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:15:34 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:15:35 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.2ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:15:44 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.6ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:15:45 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.6ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:22:03 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (42.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 63ms (Views: 15.8ms | ActiveRecord: 42.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:23:33 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:23:34 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:23:47 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (13.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 17ms (Views: 3.6ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:25:05 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (20.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 25ms (Views: 3.3ms | ActiveRecord: 20.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:25:14 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:25:15 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (24.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 29ms (Views: 4.8ms | ActiveRecord: 24.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:25:57 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:26:09 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:26:38 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:26:42 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:27:53 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (3.9ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:28:11 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:28:15 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:28:18 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:29:06 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (51.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 54ms (Views: 2.2ms | ActiveRecord: 51.2ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:29:12 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (20.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 23ms (Views: 2.8ms | ActiveRecord: 20.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:29:13 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:29:15 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.6ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:29:16 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (4.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:29:18 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:29:19 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (5.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:29:20 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (62.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 64ms (Views: 1.8ms | ActiveRecord: 62.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:29:21 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (9.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 12ms (Views: 2.8ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:29:22 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.9ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:03 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (6.9ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 10ms (Views: 2.7ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:31:07 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:08 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (3.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:31:09 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (5.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:10 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (21.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 24ms (Views: 2.6ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:31:12 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:13 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (44.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 47ms (Views: 2.8ms | ActiveRecord: 44.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:31:29 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (2.8ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:31 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:31:32 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (8.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 11ms (Views: 2.5ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:34 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:31:46 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (28.8ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 31ms (Views: 1.7ms | ActiveRecord: 28.8ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:31:47 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (4.6ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:32:03 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (3.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:32:04 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.9ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:32:12 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:32:16 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:34:01 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:34:05 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:34:07 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:35:01 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:35:08 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (11.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 27ms (Views: 16.0ms | ActiveRecord: 11.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:37:58 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:38:00 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (13.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 16ms (Views: 1.7ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:38:03 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (33.1ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 35ms (Views: 1.9ms | ActiveRecord: 33.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:40:06 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:40:42 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:41:20 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:41:26 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (18.1ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 20ms (Views: 1.7ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:41:27 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (5.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:41:28 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (18.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 21ms (Views: 2.0ms | ActiveRecord: 18.7ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:41:35 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (2.9ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:41:37 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (4.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:41:38 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (121.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 124ms (Views: 1.6ms | ActiveRecord: 121.8ms)
+
+
+Started GET "/pasts" for ::1 at 2019-06-03 14:42:01 -0400
+Processing by PastsController#index as HTML
+  [1m[36mPast Load (10.2ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 12ms (Views: 1.6ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:42:41 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (5.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:42:42 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:42:43 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:42:44 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:42:46 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (87.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 90ms (Views: 1.7ms | ActiveRecord: 87.0ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:42:47 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (45.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 48ms (Views: 2.1ms | ActiveRecord: 45.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:42:48 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:42:48 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:42:52 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:43:44 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (12.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 15ms (Views: 2.7ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:43:49 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:46:18 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (9.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 31ms (Views: 17.1ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:47:13 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.2ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:47:31 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:47:33 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:47:37 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (3.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 14:47:37 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (49.4ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 53ms (Views: 3.4ms | ActiveRecord: 49.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:47:38 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 14:54:13 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (6.2ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 9ms (Views: 2.6ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 14:54:34 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:07:14 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (7.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 33ms (Views: 14.5ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:07:17 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:07:18 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:07:56 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:07:57 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:07:58 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (10.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 13ms (Views: 1.9ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:08:00 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:08:02 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (27.6ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 32ms (Views: 3.8ms | ActiveRecord: 27.6ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:08:02 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (8.8ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 11ms (Views: 2.1ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:08:03 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:08:04 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:08:15 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.3ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:08:25 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (12.9ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 15ms (Views: 2.2ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:08:26 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (26.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 31ms (Views: 4.4ms | ActiveRecord: 26.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:09:06 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:09:07 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (26.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 29ms (Views: 2.4ms | ActiveRecord: 26.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:09:08 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (19.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 23ms (Views: 3.5ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:09:09 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (2.6ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:09:11 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (6.4ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 14ms (Views: 7.2ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:09:12 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:09:13 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (10.2ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 14ms (Views: 3.3ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:09:14 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (60.1ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 63ms (Views: 2.0ms | ActiveRecord: 60.1ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:09:15 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:09:16 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (15.9ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 18ms (Views: 2.1ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:09:18 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (35.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 39ms (Views: 3.4ms | ActiveRecord: 35.1ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:25:23 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.8ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 15:25:24 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (5.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 15:25:25 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (2.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:25:27 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 15:25:28 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (1.1ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.1ms)
+
+
