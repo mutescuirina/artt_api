@@ -1,0 +1,464 @@
+  [1m[35m (556.2ms)[0m  [1m[35mCREATE DATABASE "artt_app_api_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (361.3ms)[0m  [1m[35mCREATE DATABASE "artt_app_api_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePasts (20190602221100)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE TABLE "pasts" ("id" bigserial primary key, "title" character varying, "img" character varying, "description" character varying, "comment" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190602221100_create_pasts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190602221100"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreatePresents (20190602221149)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "presents" ("id" bigserial primary key, "title" character varying, "img" character varying, "description" character varying, "comment" character varying, "date" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190602221149_create_presents.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190602221149"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateFutures (20190602221403)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "futures" ("id" bigserial primary key, "title" character varying, "img" character varying, "description" character varying, "comment" character varying, "date" date, "attendance" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190602221403_create_futures.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190602221403"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-06-02 22:14:37.238448"], ["updated_at", "2019-06-02 22:14:37.238448"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1077246045838180470)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPast Create (0.8ms)[0m  [1m[32mINSERT INTO "pasts" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Star Wars"], ["created_at", "2019-06-02 22:14:55.609036"], ["updated_at", "2019-06-02 22:14:55.609036"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPast Create (0.2ms)[0m  [1m[32mINSERT INTO "pasts" ("img", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["created_at", "2019-06-02 22:14:55.612097"], ["updated_at", "2019-06-02 22:14:55.612097"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPast Create (0.2ms)[0m  [1m[32mINSERT INTO "pasts" ("description", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "this was so much fun"], ["created_at", "2019-06-02 22:14:55.613888"], ["updated_at", "2019-06-02 22:14:55.613888"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mPast Create (0.2ms)[0m  [1m[32mINSERT INTO "pasts" ("comment", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["comment", ""], ["created_at", "2019-06-02 22:14:55.615688"], ["updated_at", "2019-06-02 22:14:55.615688"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPresent Create (0.6ms)[0m  [1m[32mINSERT INTO "presents" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Star Wars"], ["created_at", "2019-06-02 22:14:55.628061"], ["updated_at", "2019-06-02 22:14:55.628061"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPresent Create (0.2ms)[0m  [1m[32mINSERT INTO "presents" ("img", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["created_at", "2019-06-02 22:14:55.630452"], ["updated_at", "2019-06-02 22:14:55.630452"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPresent Create (0.2ms)[0m  [1m[32mINSERT INTO "presents" ("description", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "this was so much fun"], ["created_at", "2019-06-02 22:14:55.632233"], ["updated_at", "2019-06-02 22:14:55.632233"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPresent Create (0.2ms)[0m  [1m[32mINSERT INTO "presents" ("comment", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["comment", ""], ["created_at", "2019-06-02 22:14:55.634040"], ["updated_at", "2019-06-02 22:14:55.634040"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mFuture Create (0.6ms)[0m  [1m[32mINSERT INTO "futures" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Star Wars"], ["created_at", "2019-06-02 22:14:55.646399"], ["updated_at", "2019-06-02 22:14:55.646399"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mFuture Create (0.2ms)[0m  [1m[32mINSERT INTO "futures" ("img", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["img", "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/61430839_10104878858595079_8810236521312419840_n.jpg?_nc_cat=104&_nc_ht=scontent-lga3-1.xx&oh=8f9c4374dcb2e63d0da7e394af3dcfd3&oe=5D9BBF68"], ["created_at", "2019-06-02 22:14:55.648782"], ["updated_at", "2019-06-02 22:14:55.648782"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mFuture Create (0.2ms)[0m  [1m[32mINSERT INTO "futures" ("description", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["description", "this was so much fun"], ["created_at", "2019-06-02 22:14:55.650567"], ["updated_at", "2019-06-02 22:14:55.650567"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mFuture Create (0.2ms)[0m  [1m[32mINSERT INTO "futures" ("comment", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["comment", ""], ["created_at", "2019-06-02 22:14:55.652361"], ["updated_at", "2019-06-02 22:14:55.652361"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+Started GET "/futures" for ::1 at 2019-06-02 18:15:33 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (0.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 19ms (Views: 11.8ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/" for ::1 at 2019-06-03 09:18:27 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (8.9ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-06-03 09:18:28 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-03 09:18:30 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:18:39 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (1.9ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 31ms (Views: 18.5ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/" for ::1 at 2019-06-03 09:18:47 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.8ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:18:55 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-03 09:31:36 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 15ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:31:42 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (2.5ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:38:03 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/static/js/main.chunk.js" for ::1 at 2019-06-03 09:40:55 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/static/js/main.chunk.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/manifest.json" for ::1 at 2019-06-03 09:40:55 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/futures" for ::1 at 2019-06-03 09:41:53 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.8ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 37ms (Views: 24.6ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:42:16 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (7.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 12ms (Views: 4.2ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:42:45 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 71ms (Views: 52.9ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:43:12 -0400
+Processing by FuturesController#index as HTML
+  [1m[36mFuture Load (1.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:50:55 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/irina.a/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 22ms (Views: 12.8ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/futures" for ::1 at 2019-06-03 09:51:08 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (5.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 09:51:46 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (3.7ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 09:54:49 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 09:54:52 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.1ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 09:54:54 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (1.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:04:17 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (3.0ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:08:46 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (1.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 33ms (Views: 16.7ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:12:16 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (17.3ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 22ms (Views: 4.0ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:12:30 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (25.0ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 48ms (Views: 12.3ms | ActiveRecord: 30.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:12:42 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (8.2ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 11ms (Views: 2.2ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:12:45 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (12.2ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 12.2ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:12:48 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (45.1ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 47ms (Views: 2.1ms | ActiveRecord: 45.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:12:50 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (0.5ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:14:07 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (3.1ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:14:16 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (5.2ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 7ms (Views: 1.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:14:20 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (2.0ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:14:21 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (0.4ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:14:23 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (21.7ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 24ms (Views: 2.3ms | ActiveRecord: 21.7ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:14:30 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (18.5ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 21ms (Views: 1.9ms | ActiveRecord: 18.5ms)
+
+
+Started GET "/pasts" for 127.0.0.1 at 2019-06-03 10:14:33 -0400
+Processing by PastsController#index as */*
+  [1m[36mPast Load (5.1ms)[0m  [1m[34mSELECT "pasts".* FROM "pasts"[0m
+  ↳ app/controllers/pasts_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/presents" for 127.0.0.1 at 2019-06-03 10:14:34 -0400
+Processing by PresentsController#index as */*
+  [1m[36mPresent Load (5.1ms)[0m  [1m[34mSELECT "presents".* FROM "presents"[0m
+  ↳ app/controllers/presents_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/futures" for 127.0.0.1 at 2019-06-03 10:14:35 -0400
+Processing by FuturesController#index as */*
+  [1m[36mFuture Load (0.3ms)[0m  [1m[34mSELECT "futures".* FROM "futures"[0m
+  ↳ app/controllers/futures_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+

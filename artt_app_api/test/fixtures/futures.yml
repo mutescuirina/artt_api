@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  img: MyString
+  description: MyString
+  comment: MyString
+  date: 2019-06-02
+  attendance: false
+
+two:
+  title: MyString
+  img: MyString
+  description: MyString
+  comment: MyString
+  date: 2019-06-02
+  attendance: false
